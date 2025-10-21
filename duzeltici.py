@@ -36,9 +36,9 @@ def get_screen_resolution():
 
 # --- Başlangıç ---
 
-image = cv2.imread("sayfa.jpg")
+image = cv2.imread("girdi.jpg")
 if image is None:
-    print("HATA: 'sayfa.jpg' dosyası bulunamadı.")
+    print("HATA: 'girdi.jpg' dosyası bulunamadı.")
     exit()
 
 image_display = image.copy()
