@@ -1,0 +1,32 @@
+# Python derleme çıktıları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sanal ortamlar
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# IDE/editor ayar dosyaları
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+
+# Log dosyaları ve geçici dosyalar
+*.log
+*.tmp
+
+# Çıktı görselleri
+kusbakisi_sonuc.jpg
+
+# Kişisel notlar veya deneysel dosyalar (isteğe bağlı)
+*.bak
+*.old
